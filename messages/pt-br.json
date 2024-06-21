@@ -1,0 +1,42 @@
+ {
+    "Home":{
+        "h1": "Desenvolvedor",
+        "a1": "Curriculo",
+        "h3":  "Desenvolvedor",
+        "p1":  "Sou um jovem  desenvolvedor buscando uma oportunidade. Estou confiante de que posso contribuir positivamente para a sua equipe!"
+    },
+    "Portf":{
+        "h1":   "Portfolio",
+        "p1":   "Este portfólio é um convite para acompanhar minha jornada como ",
+        "span1":"Programador",
+        "span2":"evoluindo!",
+        "p2":   "e conhecer minhas aspirações na área. Aguardo ansiosamente por suas avaliações e feedbacks para que eu possa continuar ",
+        "p3":   "Nesta seleção em constante aprimoramento, você encontrará meus trabalhos mais relevantes da área, demonstrando minhas habilidades "
+    
+    },
+    "Skills":{
+    "h1":     "Skills & Technologies",
+    "p1":     "Aprimorando continuamente minhas habilidades em linguagens e tecnologias"
+    },
+"Image":{
+       "title1": "clone spotify",
+        "text1": "clone do spotify com praticamente tudo que o original tem.",
+        "title2": "Clone spotify",
+        "text2": "Adicionar musicas, criar playlist, conteúdo premium para assinantes, verificação por e-mail ou GitHub etc.",
+        "title3": "Gerador com ai",
+        "text3": "Usando SaaS para criar chatbots de IA, gerar imagens, vídeos e música com inteligência artificial.",
+        "title4": "Website de barbearia",
+        "text4": "Site amigável e adaptável para clientes, que inclui mapa do Google Maps para encontrar sua localização e vídeos informativos."
+        
+    }
+ }
+ 
+
+ 
+            
+            
+    
+          
+          
+           
+    

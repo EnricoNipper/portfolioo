@@ -1,0 +1,21 @@
+{
+    "Home":{
+        "h1": "Developer",
+        "a1": "Resume" ,
+        "h3": "Developer",
+        "p1": "I'm a young developer looking for an opportunity. I am confident that I can contribute positively to your team!"
+ },
+ "Portf":{
+    "h1":     "Portfolio",
+    "p1":     "This portfolio is an invitation to follow my journey as",
+    "span1":  "Programmer",
+    "span2":  "evolving!",
+    "p2":     "and know my aspirations in the area. I look forward to your reviews and feedback so I can continue ",
+    "p3":     "In this constantly improving selection, you will find my most relevant works in the field, demonstrating my skills "
+
+} ,
+ "Skills":{
+    "h1":     "Skills & Technologies",
+    "p1":     "Continuously improving my language and technology skills"
+    }
+}
