@@ -2,6 +2,27 @@ import { useTranslations } from "next-intl";
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 export const SkillData = [
   {
+    name: "php",
+    Image: "/php.png",
+    width: 60,
+    height: 60,
+  },{
+    name: "java",
+    Image: "/java.png",
+    width: 60,
+    height: 60,
+  },{
+    name: "python",
+    Image: "/python.png",
+    width: 60,
+    height: 60,
+  },{
+    name: "powerbi",
+    Image: "/power.png",
+    width: 60,
+    height: 60,
+  },
+  {
     name: "Html 5",
     Image: "/html.png",
     width: 60,
@@ -97,28 +118,5 @@ export const Projects = [
     title: "Website de barbearia",
     text: "Site amigável e adaptável para clientes, que inclui mapa do Google Maps para encontrar sua localização e vídeos informativos.",
     src: "/web3.gif",
-  },
-];
-
-export const NavLinks = [
-  {
-    name: "/",
-    icon: RxHome,
-    link: "/",
-  },
-  {
-    name: "/my-skills",
-    icon: RxPerson,
-    link: "/my-skills",
-  },
-  {
-    name: "/my-projects",
-    icon: RxDashboard,
-    link: "/my-projects",
-  },
-  {
-    name: "/contact-me",
-    icon: RxClipboard,
-    link: "/contact-me",
   },
 ];

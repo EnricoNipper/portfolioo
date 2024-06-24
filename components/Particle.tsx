@@ -1,8 +1,8 @@
 import { useCallback } from "react";
 import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
-// import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too
+// importar {loadFull} de "tspartículas"; // se você for usar `loadFull`, instale o pacote "tsparticles" também.
+import { loadSlim } from "tsparticles-slim"; //  se você for usar `loadSlim`, instale o pacote "tsparticles-slim" também
 
 const Particle = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
