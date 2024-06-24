@@ -112,7 +112,7 @@ export const Projects = [
   {
     title: "Gerador com ai",
     text: "Usando SaaS para criar chatbots de IA, gerar imagens, vídeos e música com inteligência artificial.",
-    src: "/Web3.png",
+    src: "/web3.png",
   },
   {
     title: "Website de barbearia",
