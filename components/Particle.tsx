@@ -19,6 +19,7 @@ const Particle = () => {
   );
 
   return (
+    <section> 
     <div style={{ position: "relative", width: "100vw", height: "100vh" }}>
       {/* Seu outro conteúdo aqui */}
 
@@ -105,6 +106,7 @@ const Particle = () => {
         }}
       />
     </div>
+    </section>
   );
 };
 
