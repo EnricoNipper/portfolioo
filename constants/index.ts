@@ -18,7 +18,7 @@ export const SkillData = [
     height: 60,
   },{
     name: "powerbi",
-    Image: "/power.png",
+    Image: "/Power.png",
     width: 60,
     height: 60,
   },

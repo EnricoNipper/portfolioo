@@ -13,11 +13,11 @@ const Skill = () => {
   return (
     <section // Seção do componente Skill
       style={{ backgroundImage: "url(/bg-2.jpg)" }} // Define a imagem de fundo
-      className="text-3xl py-1 dark:text-white" // Define as classes CSS do componente
+      className="text-3xl py-10 p-5 rounded-lg dark:text-white" // Define as classes CSS do componente
     >
-      <div className="flex flex-col gap-70  text-center items-center">
-        <div className="flex flex-col items-center gap-4">
-          <h1 className="font-semibold text-white text-[50px]">
+      <div className="flex flex-col  gap-0 text-center items-center">
+        <div className="flex flex-col mb-20 items-center gap-1">
+          <h1 className="font-semibold text-white text-[40px]">
             Skills{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
@@ -25,7 +25,7 @@ const Skill = () => {
             </span>
             Technologies
           </h1>
-          <p className="text-gray-400 text-[20px]">
+          <p className=" py-4 text-gray-400 text-[20px]">
             {t("p1")} {/* Exibe a tradução da string "p1" */}
           </p>
         </div>
@@ -40,7 +40,7 @@ const Skill = () => {
           }}
           speed={5000} // Define a velocidade da animação do Swiper (em milissegundos)
           modules={[Autoplay]} // Define os módulos do Swiper a serem usados
-          className="max-w-[100%]" // Define a classe CSS do Swiper
+          className="max-w-[100%] p-5 basis-1/3" // Define a classe CSS do Swiper
         >
           {SkillData.map((skill, index) => ( // Itera sobre os dados das habilidades
             <SwiperSlide key={index}> {/* Define o slide para cada habilidade */}
@@ -65,7 +65,7 @@ const Skill = () => {
           }}
           speed={5000} // Define a velocidade da animação do Swiper (em milissegundos)
           modules={[Autoplay]} // Define os módulos do Swiper a serem usados
-          className="max-w-[100%]" // Define a classe CSS do Swiper
+          className="max-w-[100%] basis-1/3" // Define a classe CSS do Swiper
         >
           {SkillData.map((skill, index) => ( // Itera sobre os dados das habilidades
             <SwiperSlide key={index}> {/* Define o slide para cada habilidade */}

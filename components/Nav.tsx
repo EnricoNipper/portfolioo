@@ -25,7 +25,7 @@ const Nav = () =>{
           <a href="https://www.instagram.com/enriconipper/">  <AiFillInstagram  />   </a> {/* Link para o Instagram */}
           <a href="https://www.linkedin.com/in/enrico-vicenzo/"> <AiFillLinkedin />   </a> {/* Link para o LinkedIn */}
         </div>
-        <div className=" rounded-full w-50 h-50 relative overflow-hidden mt-20 md:h-96 md:w-96"> {/* Imagem de perfil */}
+        <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-50 h-50 relative overflow-hidden mt-20 md:h-96 md:w-96"> {/* Imagem de perfil */}
           <Image 
           src="/foto1.jpeg" 
            width="200"

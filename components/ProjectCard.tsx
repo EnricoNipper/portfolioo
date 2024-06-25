@@ -27,8 +27,8 @@ const ProjectCard = ({ image, title, text}: Props) => { // Define o componente P
        <motion.div // Div animada com Framer Motion
         className='max-w-[1040px] h-[280px]' // Define as classes CSS da div animada
         initial={false} // Define o estado inicial da animação
-        animate={{rotateY: isFlipped ? 180 : 360}} // Define a animação de rotação
-        transition={{ duration: 0.6, animationDirection: 'normal'}} // Define as transições da animação
+        animate={{rotateY: isFlipped ? 720 : 360}} // Define a animação de rotação
+        transition={{ duration: 1.0, animationDirection: 'normal'}} // Define as transições da animação
         onAnimationComplete={() => setIsAnimating(false)} // Define a função a ser executada ao término da animação
         >
             <div // Div para a face frontal do card

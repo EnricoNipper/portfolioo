@@ -27,7 +27,7 @@ export default function Home() {
 
       <main className="overflow-x-hidden bg-blue px-10 dark:bg-gray-900 md:px-20 lg:px-40"> {/* Define o estilo da página principal */}
         <section> {/* Seção com altura mínima da tela */}
-          <nav className="py-10 mb-2 flex justify-between dark:text-white"> {/* Define a barra de navegação */}
+          <nav className="py-10 flex justify-between dark:text-white"> {/* Define a barra de navegação */}
             <h1 className="font-burtons text-xl">{t("h1")}</h1> {/* Título da página com tradução */}
             <ul className="flex items-center "> {/* Lista de itens na barra de navegação */}
               <li>
@@ -35,14 +35,6 @@ export default function Home() {
                   onClick={() => setDarkMode(!darkMode)} // Define a função de clique para alternar o modo escuro
                   className=" cursor-pointer " // Define o estilo do ícone
                 />
-              </li>
-              <li>
-                <Link href={pathname} locale='en' className=" cursor-pointer px-1  rounded-md ml-1 hover:bg-cyan-500">  English {/* Link para a versão em inglês */}
-                 </Link> 
-              </li>
-              <li>
-                <Link href={pathname} locale='pt-br' className=" cursor-pointer  px-4 py-2 rounded-md ml-8 hover:bg-cyan-500 ">  Portugues {/* Link para a versão em português */}
-                 </Link> 
               </li>
               <li>
                  {/* Link para o currículo */}
@@ -54,6 +46,19 @@ export default function Home() {
                 </a>
               </li>
             </ul>
+            </nav>
+            <nav className=" mb-2 flex justify-center dark:text-white">
+            <ul className="flex items-center ">
+            <li>
+                <Link href={pathname} locale='en' className=" cursor-pointer px-1  rounded-md ml-1 hover:bg-cyan-500">  English {/* Link para a versão em inglês */}
+                 </Link> 
+              </li>
+              <li>
+                <Link href={pathname} locale='pt-br' className=" cursor-pointer  px-4 py-2 rounded-md ml-8 hover:bg-cyan-500 ">  Português {/* Link para a versão em português */}
+                 </Link> 
+              </li>
+            </ul>
+
           </nav>
         </section>
         <Nav/>     {/*Renderiza o componente Nav */}
