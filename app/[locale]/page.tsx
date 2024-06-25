@@ -50,7 +50,7 @@ export default function Home() {
             <nav className=" mb-2 flex justify-center dark:text-white">
             <ul className="flex items-center ">
             <li>
-                <Link href={pathname} locale='en' className=" cursor-pointer px-1  rounded-md ml-1 hover:bg-cyan-500">  English {/* Link para a versão em inglês */}
+                <Link href={pathname} locale='en' className=" cursor-pointer px-4 py-2  rounded-md ml-1 hover:bg-cyan-500">  English {/* Link para a versão em inglês */}
                  </Link> 
               </li>
               <li>
